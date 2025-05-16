@@ -1,0 +1,12 @@
+<div id="agregar" class="form-container">
+    <h4>Agregar Nuevo Contacto</h4>
+    <form action="../c/ControladorContacto.php" method="post">
+        <input type="hidden" name="accion" value="agregar">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="direccion" placeholder="Dirección">
+        <input type="text" name="telefono" placeholder="Teléfono" required>
+        <input type="email" name="email" placeholder="Email">
+        <input type="number" name="id_usuario" placeholder="ID Usuario" required>
+        <button type="submit">Guardar</button>
+    </form>
+</div>

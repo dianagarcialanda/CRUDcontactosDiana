@@ -1,0 +1,17 @@
+<div id="eliminar" class="form-container" style="display: none;">
+    <h4>Eliminar Contacto</h4>
+    <div class="buscar-eliminar">
+        <input type="number" id="buscar-id" placeholder="Ingrese ID del contacto">
+        <button onclick="buscarContactoParaEliminar()">Buscar</button>
+    </div>
+    <form action="../c/ControladorContacto.php" method="post" id="form-eliminar" style="display: none;">
+        <input type="hidden" name="accion" value="eliminar">
+        <input type="hidden" name="id" id="delete-id">
+        <div id="info-contacto">
+            <p>ID: <span id="eliminar-id"></span></p>
+            <p>Nombre: <span id="eliminar-nombre"></span></p>
+            <p>Teléfono: <span id="eliminar-telefono"></span></p>
+        </div>
+        <button type="button" class="btn-eliminar" onclick="confirmarEliminacionContacto()">Confirmar Eliminación</button>
+    </form>
+</div>

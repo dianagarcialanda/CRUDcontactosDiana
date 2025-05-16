@@ -1,0 +1,20 @@
+<div id="actualizar" class="form-container" style="display: none;">
+    <h4>Actualizar Contacto</h4>
+    <div class="buscar-actualizar">
+        <input type="number" id="buscar-id-actualizar" placeholder="Ingrese ID del contacto">
+        <button onclick="buscarContactoParaActualizar()">Buscar</button>
+    </div>
+    <form action="../c/ControladorContacto.php" method="post" id="form-actualizar" style="display: none;">
+        <input type="hidden" name="accion" value="actualizar">
+        <input type="hidden" name="id" id="actualizar-id">
+        <div id="info-contacto-actualizar">
+            <p>ID: <span id="actualizar-id-texto"></span></p>
+            <p>Nombre: <input type="text" name="nombre" id="actualizar-nombre" required></p>
+            <p>Dirección: <input type="text" name="direccion" id="actualizar-direccion"></p>
+            <p>Teléfono: <input type="text" name="telefono" id="actualizar-telefono" required></p>
+            <p>Email: <input type="email" name="email" id="actualizar-email"></p>
+            <p>ID Usuario: <input type="number" name="id_usuario" id="actualizar-id-usuario" required></p>
+        </div>
+        <button type="submit" class="btn-actualizar">Confirmar Actualización</button>
+    </form>
+</div>
