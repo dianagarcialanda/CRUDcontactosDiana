@@ -22,6 +22,16 @@
     > Si usas otro puerto (ej. `8080`), entra a:  
     > `http://localhost:8080/P3_phpYagenda/`
 6. Listo, se podrá ver y probar este proyecto
+   
+> 🛠️ **NOTA:** Si por alguna razón llegara a fallar la conexión a la base de datos:
+>
+> Verifica que el archivo `AccesoDatos.php` tenga los datos correctos:
+>
+> ```php
+> "mysql:host=localhost;dbname=agenda;charset=utf8", "root", "" ;
+> ```
+>
+> En tu caso, por ejemplo, si tienes otro usuario y no `"root"`, deberás poner tu propio usuario, lo mismo con la contraseña. 
 
 
 ## 📝 Descripción breve del proyecto
