@@ -1,8 +1,5 @@
 📒CRUDcontactosDiana
 
-Alumna: Diana García Landa 
-
-
 ## 🛠️ Instalación y ejecución
 
 #### Requisitos:
@@ -32,4 +29,20 @@ Este proyecto consiste en una aplicación web sencilla desarrollada en HTML, CSS
 
 ## Captura de pantalla inicial
 ![Logo del proyecto](pantallaInicial.png)
+
+---
+
+## 🎓 Datos académicos
+
+**TECNOLÓGICO NACIONAL DE MÉXICO**  
+**Instituto Tecnológico de Orizaba**
+
+👩‍💻 **Alumna:** García Landa Diana  
+👩‍🏫 **Docente:** Patricia Quitl González  
+📘 **Materia:** 6G5D Programación Web  
+📂 **Proyecto:** "CRUD Contactos"  
+
+🗓️ **Periodo:** Enero - Junio 2025  
+📍 **Orizaba, Ver.**, a viernes 16 de mayo de 2025
+
 
