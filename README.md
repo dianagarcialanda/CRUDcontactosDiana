@@ -31,3 +31,5 @@ Alumna: Diana García Landa
 Este proyecto consiste en una aplicación web sencilla desarrollada en HTML, CSS, JS, PHP y MySQL que permite gestionar una agenda de contactos. El sistema permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los registros de contactos, facilitando su administración a través de una interfaz básica en el navegador.
 
 ## Captura de pantalla inicial
+![Logo del proyecto](pantallaInicial.png)
+
